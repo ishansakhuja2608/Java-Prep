@@ -3,7 +3,7 @@ class Solution {
         /*
         Check whether the given character is letter or not, if not, move to next character, 
         Convert that character to lower case and check whether it's equal to the character on the other side
-        if not, return false, at the end, return true
+        if not, return false, at the end, return true - O(n)
         */
         int start = 0;
         int end = s.length() - 1;
